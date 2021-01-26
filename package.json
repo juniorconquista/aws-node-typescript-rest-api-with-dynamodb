@@ -1,0 +1,40 @@
+{
+  "name": "aws-node-typescript-rest-api-with-dynamodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "lint": "tslint '*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorconquista/aws-node-typescript-rest-api-with-dynamodb.git"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "architecture",
+    "typescript",
+    "dynamodb",
+    "node"
+  ],
+  "author": "Júnior Conquista <conquista.engcomp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juniorconquista/aws-node-typescript-rest-api-with-dynamodb/issues"
+  },
+  "homepage": "https://github.com/juniorconquista/aws-node-typescript-rest-api-with-dynamodb#readme",
+  "devDependencies": {
+    "@types/aws-sdk": "0.0.42",
+    "@types/node": "^7.0.5",
+    "@types/uuid": "^8.3.0",
+    "tslint": "^5.5.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
